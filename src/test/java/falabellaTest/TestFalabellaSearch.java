@@ -16,7 +16,7 @@ public class TestFalabellaSearch extends BaseTest {
         TGoogleSearch.InputSearch(driver,"Falabella colombia");
         TGoogleClick.firstResult(driver);
         TfalabellaIndex.search(driver,"Consola ps5");
-        //Assert.assertEquals("Consola Sony PS5 Digital 825GB'", WaitUntilElement.isPresent(driver,GetList.elements(driver,UiFalabellaResult.itemSelect).get(0));
+        Assert.assertEquals("Consola Sony PS5 Digital 825GB'","");
     }
     @Test
     public void falabellaResultElement(){
