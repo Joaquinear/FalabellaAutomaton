@@ -14,6 +14,7 @@ import org.testng.annotations.BeforeSuite;
 import report.ReportManager;
 
 public class BaseTest {
+    protected  String searchText = "Consola ps5";
     protected WebDriver driver;
 
     @BeforeSuite
