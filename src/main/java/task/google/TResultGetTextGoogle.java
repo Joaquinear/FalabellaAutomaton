@@ -6,6 +6,6 @@ import ui.google.UiGoogleSearch;
 
 public class TResultGetTextGoogle {
     public static String firstResult(WebDriver driver){
-        return GetText.getText(driver,UiGoogleSearch.googleFirstResultText);
+        return GetText.text(driver,UiGoogleSearch.googleFirstResultText);
     }
 }
