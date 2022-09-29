@@ -11,7 +11,7 @@ public class TFalabellaResult {
             return true;
         return false;
     }
-    public static String itemClick(WebDriver driver){
+    public static String itemClickText(WebDriver driver){
         return GetList.elements(driver, UiFalabellaResult.itemSelect).get(1).getText();
     }
 }
