@@ -13,5 +13,4 @@ public class UiFalabellaPay {
     public static By btnEnterAddress = By.xpath("//button[@name='useAddress']");
     public static By BtnContinuarGoToPay = By.xpath("//button[text()='Continuar']");
     public static By TexPayLastStep = By.xpath("//span[text()='Pago']");
-
 }
