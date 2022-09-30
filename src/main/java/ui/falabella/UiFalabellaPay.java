@@ -2,7 +2,7 @@ package ui.falabella;
 
 import org.openqa.selenium.By;
 
-public class UiFalabellaDeliver {
+public class UiFalabellaPay {
     public static By departament = By.id("region");
     public static By city = By.id("ciudad");
     public static By neighborhood = By.id("comuna");
