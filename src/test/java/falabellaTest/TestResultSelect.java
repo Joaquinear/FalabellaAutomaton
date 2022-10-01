@@ -16,6 +16,6 @@ public class TestResultSelect extends BaseTest {
         TfalabellaIndex.search(driver,searchText);
         itemClickedText = TFalabellaResult.itemClickText(driver);
         TFalabellaClick.itemSelect(driver);
-        Assert.assertEquals(itemClickedText, TGetText.getTextItemAdded(driver));
+        Assert.assertEquals(itemClickedText, TGetTextFalabella.getTextItemAdded(driver));
     }
 }

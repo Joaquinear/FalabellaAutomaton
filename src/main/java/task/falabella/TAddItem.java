@@ -1,11 +1,10 @@
 package task.falabella;
 
 import actions.Click;
-import actions.GetText;
 import actions.IsDisplayed;
 import org.openqa.selenium.WebDriver;
 import ui.falabella.UiFalabellaAdd;
-import ui.falabella.UiFalabellaShopBag;
+import ui.falabella.UiFalabellaPay;
 
 public class TAddItem {
 
@@ -14,12 +13,11 @@ public class TAddItem {
         Click.on(driver,UiFalabellaAdd.seeBagShop);
     }
     public static void btnGoToBuy(WebDriver driver){
-        Click.on(driver, UiFalabellaShopBag.btnGoToBuy);
+        Click.on(driver, UiFalabellaPay.btnGoToBuy);
     }
     public static boolean existTextBuyPage(WebDriver driver){
-        if(IsDisplayed.element(driver, UiFalabellaShopBag.textBolsaDeCompras))
+        if(IsDisplayed.element(driver, UiFalabellaPay.getBolsaDeCompras))
             return true;
         return false;
-
     }
 }
