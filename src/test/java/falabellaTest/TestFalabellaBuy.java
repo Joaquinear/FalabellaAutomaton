@@ -50,6 +50,9 @@ public class TestFalabellaBuy extends BaseTest {
         TUseSelectBoxFala.choseCity(driver,"MEDELLIN");
         TUseSelectBoxFala.choseNeighborhood(driver,"MEDELLIN");
         TFalabellaClick.continueClick(driver);
-
+        Assert.assertTrue(TFalabellaElementExist.isDeliverdHome(driver));
     }
+
+    @Test
+    public void
 }
